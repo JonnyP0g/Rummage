@@ -1,34 +1,26 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "rummage",
 	"version": "${version}",
-	"name": "Example Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Rummage",
+	"description": "Press a hotkey, type an item name, and Rummage highlights every loaded chest, barrel and shulker box that holds it.",
 	"authors": [
-		"Me!"
+		"JonnyP0g"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/JonnyP0g/Rummage"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/rummage/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.jonnyp0g.rummage.Rummage"
 		],
 		"client": [
-			"com.example.client.ExampleModClient"
+			"com.jonnyp0g.rummage.client.RummageClient"
 		]
 	},
-	"mixins": [
-		"modid.mixins.json",
-		{
-			"config": "modid.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
 		"fabricloader": ">=0.19.5",
 		"minecraft": "~26.3",

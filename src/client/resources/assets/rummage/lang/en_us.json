@@ -1,0 +1,13 @@
+{
+	"key.category.rummage.main": "Rummage",
+	"key.rummage.open": "Search Containers",
+	"screen.rummage.title": "Rummage",
+	"screen.rummage.hint": "Search for an item...",
+	"screen.rummage.highlight": "Highlight",
+	"screen.rummage.scanning": "Scanning nearby containers... (%s so far)",
+	"screen.rummage.indexed": "%s containers indexed",
+	"screen.rummage.no_results": "No matches in %s containers",
+	"screen.rummage.summary": "%s containers, %s items",
+	"screen.rummage.more": "+%s more containers",
+	"screen.rummage.no_server": "This server doesn't have Rummage installed."
+}
